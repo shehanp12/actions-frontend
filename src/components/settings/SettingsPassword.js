@@ -12,7 +12,7 @@ import React from 'react';
 const SettingsPassword = (props) => {
   const [values, setValues] = useState({
     password: '',
-    confirm: ''
+    confirm: 'hello'
   });
 
   const handleChange = (event) => {
