@@ -1,0 +1,11 @@
+org: shehanp12
+name: librarymanagment
+app: frontend
+service: libraryManagment
+component: website
+
+inputs:
+  src:
+    src: ./src
+    hook: npm run build
+    dist: ./dist
