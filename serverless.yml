@@ -5,19 +5,15 @@ service: libraryManagmentSystem
 package:
   individually: true
 plugins:
-  - serverless-bundle # Package our functions with Webpack
+  - serverless-bundle
   - serverless-offline
-  - serverless-dotenv-plugin # Load .env as environment variables
-  # - serverless-plugin-thundra
+  - serverless-dotenv-plugin
   - serverless-webpack
-# custom:
-#   webpack:
-#     keepOutputDirectory: true
 provider:
   name: aws
   runtime: nodejs12.x
   stage: prod
-  region: us-east-2
+  region: us-west-2
   # timeout: 30
   # These environment variables are made available to our functions
   # under process.env.
