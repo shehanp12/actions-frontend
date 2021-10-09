@@ -24,6 +24,7 @@
   },
   "dependencies": {
     "dotenv": "^10.0.0",
+    "eslint-plugin-react": "^7.26.1",
     "serverless-plugin-thundra": "^2.5.9",
     "stripe": "^8.150.0",
     "uuid": "^7.0.3"
